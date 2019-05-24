@@ -81,11 +81,11 @@ function EmailReplyUpdateFileCount(sCaseLogAttCode)
 	
 	if ((iNbAttachments == 0) || bEmailDisabled)
 	{
-		$('#emry_select_files_btn_'+sCaseLogAttCode).attr('disabled', 'disabled');
+		$('#emry_select_files_btn_'+sCaseLogAttCode).prop('disabled', true);
 	}
 	else
 	{
-		$('#emry_select_files_btn_'+sCaseLogAttCode).removeAttr('disabled');
+		$('#emry_select_files_btn_'+sCaseLogAttCode).prop('disabled', false);
 	}
 }
 

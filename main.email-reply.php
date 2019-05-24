@@ -290,10 +290,11 @@ EOF
 				foreach ($aCaseLogs as $sAttCode => $aTriggers)
 				{
 					$sOperation = isset($aOperations[$sAttCode]) ? $aOperations[$sAttCode] : 'no';
-					$sLog = utils::ReadPostedParam('attr_'.$sAttCode, null, false, 'raw_data');
+					$sLog = utils::ReadPostedParam('attr_'.$sAttCode, null, 'raw_data');
 					if (($sOperation == 'yes') && ($sLog != null))
 					{
 						$aFileDefs = utils::ReadParam('emry_files_'.$sAttCode, array(), false, 'raw_data');
+						unset($aTriggerContext['attachments']); 
 						if (count($aFileDefs) > 0)
 						{
 							$aFiles = array();

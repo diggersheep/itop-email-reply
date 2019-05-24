@@ -13,7 +13,6 @@
 //   You should have received a copy of the GNU General Public License
 //   along with this program; if not, write to the Free Software
 //   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
 /**
  * Localized data
  *
@@ -22,11 +21,9 @@
  * @author      Denis Flaven <denis.flaven@combodo.com>
  * @license     http://www.opensource.org/licenses/gpl-3.0.html LGPL
  */
-
 //
 // Class: TriggerOnLogUpdate
 //
-
 Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'Class:TriggerOnLogUpdate' => 'Trigger (wenn ein Log aktualisiert wird)',
 	'Class:TriggerOnLogUpdate+' => 'Trigger auf ein Update eines Logs durch einen Endbenutzer',

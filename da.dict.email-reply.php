@@ -25,17 +25,17 @@
 // Class: TriggerOnLogUpdate
 //
 
-Dict::Add('EN US', 'English', 'English', array(
-	'Class:TriggerOnLogUpdate' => 'Trigger (when log is updated)',
-	'Class:TriggerOnLogUpdate+' => 'Trigger on a end-user\'s update in log',
-	'Class:TriggerOnLogUpdate/Attribute:target_log' => 'Log attribute code',
-	'Class:TriggerOnLogUpdate/Attribute:target_log+' => 'Identifies which log will be considered',
+Dict::Add('DA DA', 'Danish', 'Dansk', array(
+	'Class:TriggerOnLogUpdate' => 'Trigger (when log is updated)~~',
+	'Class:TriggerOnLogUpdate+' => 'Trigger on a end-user\'s update in log~~',
+	'Class:TriggerOnLogUpdate/Attribute:target_log' => 'Log attribute code~~',
+	'Class:TriggerOnLogUpdate/Attribute:target_log+' => 'Identifies which log will be considered~~',
 
-	'UI-emry-enable' => 'Send the reply by email',
-	'UI-emry-noattachment' => 'No attachment',
-	'UI-emry-caselog-prompt' => 'Type your text here',
-	'UI-emry-select-attachments' => 'Select Attachments...',
-	'UI-emry-attachments-to-be-sent' => 'The following attachments will be sent:',
-	'UI-emry-select-attachments-tooltip' => 'Click to select the attachments to be sent',
+	'UI-emry-enable' => 'Send the reply by email~~',
+	'UI-emry-noattachment' => 'No attachment~~',
+	'UI-emry-caselog-prompt' => 'Type your text here~~',
+	'UI-emry-select-attachments' => 'Select Attachments...~~',
+	'UI-emry-attachments-to-be-sent' => 'The following attachments will be sent:~~',
+	'UI-emry-select-attachments-tooltip' => 'Click to select the attachments to be sent~~',
 ));
 

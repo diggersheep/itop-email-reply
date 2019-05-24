@@ -13,7 +13,6 @@
 //   You should have received a copy of the GNU General Public License
 //   along with this program; if not, write to the Free Software
 //   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
 /**
  * Localized data
  *
@@ -22,11 +21,9 @@
  * @author      Denis Flaven <denis.flaven@combodo.com>
  * @license     http://www.opensource.org/licenses/gpl-3.0.html LGPL
  */
-
 //
 // Class: TriggerOnLogUpdate
 //
-
 Dict::Add('FR FR', 'French', 'Français', array(
 	'Class:TriggerOnLogUpdate' => 'Déclencheur sur mise à jour du journal',
 	'Class:TriggerOnLogUpdate+' => 'Déclencheur sur mise à jour du journal',
@@ -40,3 +37,4 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'UI-emry-attachments-to-be-sent' => 'Les pièces jointes suivantes seront envoyées:',
 	'UI-emry-select-attachments-tooltip' => 'Cliquez pour choisir les pièces jointes à envoyer',
 ));
+
